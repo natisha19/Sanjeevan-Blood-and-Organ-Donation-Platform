@@ -1,0 +1,22 @@
+[theme]
+base="light"
+primaryColor="#aa3a2a"
+backgroundColor="#aa3a2a"
+secondaryBackgroundColor="#ffecec"
+textColor="#2c2c2c"
+font = "arial"
+# Streamlit config.toml doesn't support background images directly.
+# Add this CSS in your Streamlit app (e.g., in app.py) to use the image:
+# st.markdown(
+#     """
+#     <style>
+#     .stApp {
+#         background-image: url("file:///C:/Users/Natisha/PESU/SEM5/DBMS/.streamlit/bgimg.png");
+#         background-size: cover;
+#         background-repeat: no-repeat;
+#         background-position: center;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True,
+# )
